@@ -6,7 +6,7 @@ import os
 import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from setup import Contact
+from setup import Items
 
 
 app = Flask(__name__)
@@ -43,7 +43,7 @@ def my_form_post():
         subprocess.check_output(['scrapy', 'crawl', spider_name, "-o", path, "--set", "CLOSESPIDER_ITEMCOUNT="+items])
         json_items = pd.read_json(path)
         for index, row in json_items.iterrows():
-            new_contact = Contact(row.id_item,
+            new_contact = Items(row.id_item,
                                   row.price,
                                   row.title,
                                   row.description,

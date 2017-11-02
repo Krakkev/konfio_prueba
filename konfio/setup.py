@@ -7,9 +7,9 @@ engine = create_engine('sqlite:///entregable/konfio.db', echo=True)
 Base = declarative_base()
 
 ########################################################################
-class Contact(Base):
+class Items(Base):
     """"""
-    __tablename__ = "contact"
+    __tablename__ = "items"
 
     id_item = Column(String, primary_key=True)
     price = Column(Integer)
