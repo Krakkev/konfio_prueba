@@ -19,11 +19,11 @@ El projecto requiere python2.7 y sus siguientes librerias:
       
  
 # Ejecucion
-1. cd konfio_prueba/konfio/          ............ Posicionarte dentro de la carpeta konfio
-2. python setup.py                   ............ Correr setup.py para crear la base de datos
-3. export FLASK_APP=konfio.py        ............ Declarar la variable de entorno FLASK_APP
-4. flask run                         ............ Correr la aplicacion de flask
-5. http://127.0.0.1:5000/sources/    ............ Ir a la url donde esta corriendo la app
+1. $cd konfio_prueba/konfio/          #............ Posicionarte dentro de la carpeta konfio
+2. $python setup.py                   #............ Correr setup.py para crear la base de datos
+3. $export FLASK_APP=konfio.py        #............ Declarar la variable de entorno FLASK_APP
+4. $flask run                         #............ Correr la aplicacion de flask
+5. http://127.0.0.1:5000/sources/     ............ Ir a la url donde esta corriendo la app
 6. Elegir el sitio a crawlear e ingresar el numero de items que se desean obtener (default 10). 
 7. Presionar el boton de Crawl! para comenzar la busqueda de los items
 8. Se muestra el json obtenido con tu busqueda http://127.0.0.1:5000/products/ 
