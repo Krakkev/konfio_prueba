@@ -1,4 +1,4 @@
-#PRUEBA KONFÍO
+# PRUEBA KONFÍO
 
 ## Requerimientos
 * python 2.7
