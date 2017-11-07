@@ -15,4 +15,5 @@ class GeneralItem(scrapy.Item):
     title = scrapy.Field()
     description = scrapy.Field()
     site = scrapy.Field()
+    url = scrapy.Field()
     pass
